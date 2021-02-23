@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+
+body {
+  border: 10px grey solid;
+  margin: 40px;
+}
+
+.container {
+  width: 400px;
+  height: 600px;
+  margin: 40px auto;
+  border-radius: 20px;
+  background: rgb(138, 226, 177);
+}
+
+.container2 {
+  display: flex;
+  border-top: 2px solid;
+}
+
+.history {
+  width: 80px;
+  height: 80px;
+  margin: 40px auto;
+  border-radius: 10px;
+  background: rgb(138, 226, 177);
+}
+
+.dice {
+  width: 240px;
+  height: 240px;
+  margin: 10% auto 10px auto;
+}
+
+.dice1 {
+  background: url("../assets/dice_icon_1.png");
+  background-size: cover;
+}
+
+.dice2 {
+  background: url("../assets/dice_icon_2.png");
+  background-size: cover;
+}
+
+.dice3 {
+  background: url("../assets/dice_icon_3.png");
+  background-size: cover;
+}
+
+.dice4 {
+  background: url("../assets/dice_icon_4.png");
+  background-size: cover;
+}
+
+.dice5 {
+  background: url("../assets/dice_icon_5.png");
+  background-size: cover;
+}
+
+.dice6 {
+  background: url("../assets/dice_icon_6.png");
+  background-size: cover;
+}
+
+.btn-dice {
+  padding: 10px;
+  width: 180px;
+  margin: 20px 27%;
+  font-size: 2rem;
+  background: linear-gradient(45deg, #57a0be, #ebf8e1, #3ccbf6);
+  font-family: "DotGothic16", sans-serif;
+  border-radius: 10px;
+}
+
+.btn-delete {
+  padding: 10px;
+  width: 180px;
+  margin: 5px 27%;
+  font-size: 20px;
+  background: linear-gradient(45deg, #eb7c7c, #ebf8e1, #eb7c7c);
+  font-family: "DotGothic16", sans-serif;
+  border-radius: 10px;
+}
